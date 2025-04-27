@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is namaste react by akshay saini",
   "scripts": {
+    "start": "parcel index2.html",
+    "build": "parcel build index2.html",
     "test": "jest"
   },
   "repository": {
@@ -20,11 +22,11 @@
   },
   "homepage": "https://github.com/amritansh-mishra/NamasteReact#readme",
   "devDependencies": {
-    "parcel": "^2.13.3",
+    "parcel": "^2.14.4",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.1.0"
   }
 }

@@ -17,3 +17,12 @@ Practicing React with Akashay Saini
  - can be run on HTTPs.
  - Tree shaking - removes unecessary/unused code.
  - Browsers list - used in (package.json) , "browserslist": [list of browsers] (it's an array).
+
+# JSX
+
+ - JSX - HTML like or XML like syntax.
+
+ - JSX (transpiled before it reaches the js) - PARCEL does this - BABEL(Js compiler) - converts JSX to JS.
+
+ - JSX => Babel transpiles it to React.createElement => Reactelement -JS object => HTMLElement(Render).
+
