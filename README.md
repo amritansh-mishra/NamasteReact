@@ -26,3 +26,14 @@ Practicing React with Akashay Saini
 
  - JSX => Babel transpiles it to React.createElement => Reactelement -JS object => HTMLElement(Render).
 
+ - JSX element must have one parent element.
+ 
+# Inline styling in react 
+ 
+ -      const jsx = (
+        <div style={{backgroundColour: "red"}}>  
+        hi
+        </div>
+        )
+
+
