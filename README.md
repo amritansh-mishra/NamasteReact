@@ -46,8 +46,8 @@ Practicing React with Akashay Saini
 
 ## What is Usestate?
  - To create state variables. It comes from react library , we import it using a name variable.
-
-     const [searchTxt] = useState(); 
+     
+       const [ searchTxt ] = useState(); 
 
 - this fucntion returns a array , the first element of the array is the varibale name.
 - searchtxt is a local state variable.
