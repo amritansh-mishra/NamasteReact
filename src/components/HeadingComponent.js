@@ -1,6 +1,6 @@
 //JSX
 
-export const Title = () => (
+const Title = () => (
   <a href="/">
 
 <img 
