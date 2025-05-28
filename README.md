@@ -36,4 +36,32 @@ Practicing React with Akashay Saini
         </div>
         )
 
+# How to insert words in Search bar in react. 
+
+## What is State?
+ - 
+
+## What is HOOKS?
+ - it's just a normal function
+
+## What is Usestate?
+ - To create state variables. It comes from react library , we import it using a name variable.
+
+     const [searchTxt] = useState(); 
+
+- this fucntion returns a array , the first element of the array is the varibale name.
+- searchtxt is a local state variable.
+
+      const [searchTxt, setsearchTx] = useState();
+
+### How Do I modify mt variable (searchTxt)?
+ - by doing
+       value={searchTxt}
+        onChange={(e) => {
+         setsearchTx = {e.target.value}
+        }}
+       
+ - e.target.value = whatever we write in input.
+
+
 
