@@ -37,7 +37,6 @@ Practicing React with Akashay Saini
         )
 
 # How to insert words in Search bar in react. 
-
 ## What is State?
  - 
 
@@ -54,14 +53,15 @@ Practicing React with Akashay Saini
 
       const [searchTxt, setsearchTx] = useState();
 
-### How Do I modify mt variable (searchTxt)?
+## How Do I modify mt variable (searchTxt)?
  - by doing
        value={searchTxt}
         onChange={(e) => {
-         setsearchTx = {e.target.value}
+         setSearchTxt(e.target.value)
         }}
        
  - e.target.value = whatever we write in input.
+ - setSearchTxt(e.target.value) will modif the searchTxt variable.
 
 
 

@@ -9,20 +9,21 @@ const Body =() =>{
   // searchText is a state variable, but it is not being updated correctly in the input field.
   // To make it work , we should use the useState hook to manage the state of searchText.
 
-  const [searchTxt] = useState("Search Here");
+  const [searchTxt, setSearchTxt] = useState("Search Here");
 
   return ( 
   <> 
     <div className="Search-container">
-      <input
+      <input                                                          
        type="text "
        className="search-input"
        placeholder="Search" 
        value={searchTxt}
         onChange={(e) => {
-          searchText = e.target.value;
+          setSearchTxt(e.target.value);
         }}
        />
+       
       <button className="Search">Search</button>
 
 
