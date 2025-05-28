@@ -53,7 +53,7 @@ Practicing React with Akashay Saini
 
       const [searchTxt, setsearchTx] = useState();
 
-## How Do I modify mt variable (searchTxt)?
+## How Do I modify my variable (searchTxt)?
  - by doing
        value={searchTxt}
         onChange={(e) => {
@@ -62,6 +62,8 @@ Practicing React with Akashay Saini
        
  - e.target.value = whatever we write in input.
  - setSearchTxt(e.target.value) will modif the searchTxt variable.
+
+ ###
 
 
 
