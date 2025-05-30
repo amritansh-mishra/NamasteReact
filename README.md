@@ -63,7 +63,7 @@ Practicing React with Akashay Saini
  - e.target.value = whatever we write in input.
  - setSearchTxt(e.target.value) will modif the searchTxt variable.
 
- ###
+ ## How to write hooks
 
 
 
