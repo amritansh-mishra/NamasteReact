@@ -37,17 +37,6 @@ root.render(heading);
 
 */
 
-import React from "react";
-import ReactDOM, {createRoot} from "react-dom/client";
-//export default
-import HeadingComponent from "./components/HeadingComponent";
-// exporting by name 
-import {Title} from "./components/HeadingComponent";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import { IMG_CDN } from "./config";
-import Restrauntcard from "./components/Restrauntcard";
-
 
 
 //                                            Method 1 to use props
@@ -122,6 +111,17 @@ const Restrauntcard = ({name, cuisines, avgRating, cloudinaryImageId}) => {
 
 }
 */
+
+import React from "react";
+import ReactDOM, {createRoot} from "react-dom/client";
+//export default
+import HeadingComponent from "./components/HeadingComponent";
+// exporting by name 
+import {Title} from "./components/HeadingComponent";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import { IMG_CDN } from "./config";
+import Restrauntcard from "./components/Restrauntcard";
 
 const AppLayout =() => {
   return(

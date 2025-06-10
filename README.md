@@ -41,7 +41,7 @@ Practicing React with Akashay Saini
  - 
 
 ## What is HOOKS?
- - it's just a normal function
+ - it's just a normal js utility functions.
 
 ## What is Usestate?
  - To create state variables. It comes from react library , we import it using a name variable.
@@ -63,7 +63,9 @@ Practicing React with Akashay Saini
  - e.target.value = whatever we write in input.
  - setSearchTxt(e.target.value) will modif the searchTxt variable.
 
- ## How to write hooks
+ ## useEffect()
+ - takes two arguments- (i) Callback function (ii) Dependency Array
+
 
 
 

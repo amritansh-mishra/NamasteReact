@@ -10,9 +10,9 @@ const Body =() =>{
   // To make it work , we should use the useState hook to manage the state of searchText.
 
   const [searchTxt, setSearchTxt] = useState("Search Here");
-
   return ( 
   <> 
+  
     <div className="Search-container">
       <input                                                          
        type="text "
@@ -25,17 +25,18 @@ const Body =() =>{
        />
        
       <button className="Search">Search</button>
-
-
     </div>
+
+
    <div className="restro-list">
     {
       restrolist.map((restro) => (
         <Restrauntcard key={restro.info.id} {...restro.info}/>
       ))
-    }
-    
+    } 
    </div>
+
+   
   </>
   )
   
