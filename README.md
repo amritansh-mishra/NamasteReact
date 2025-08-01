@@ -65,8 +65,3 @@ Practicing React with Akashay Saini
 
  ## useEffect()
  - takes two arguments- (i) Callback function (ii) Dependency Array
- 
-
-
-
-
