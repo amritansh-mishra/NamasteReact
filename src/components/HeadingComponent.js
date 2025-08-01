@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 //JSX
 
 const Title = () => (
@@ -15,6 +17,9 @@ const Title = () => (
 
 //React Functional component
 const HeadingComponent = () => {
+
+  const [btnNameReact, setBtnNameReact] = useState("Login");
+
   return (
     <div className="header">
       <Title />                  
@@ -24,6 +29,19 @@ const HeadingComponent = () => {
           <li> About</li>
           <li> Contact</li>
           <li> Cart</li>
+          <button className="login"
+          onClick={() => {
+            btnNameReact === "Login" ? setBtnNameReact("Logout") :
+            setBtnNameReact("Login");
+            //if btnNameReact is Login, then set it to Logout
+            //if btnNameReact is Logout, then set it to Login
+            //this is called toggling
+            //this is a ternary operator
+            //if condition ? true : false
+          }}
+          >
+          {btnNameReact}
+          </button>
         </ul>
       </div>
     </div>
