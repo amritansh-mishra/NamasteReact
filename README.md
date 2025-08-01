@@ -41,7 +41,7 @@ Practicing React with Akashay Saini
  - 
 
 ## What is HOOKS?
- - it's just a normal js utility functions.
+ - it's just a normal js functions.
 
 ## What is Usestate?
  - To create state variables. It comes from react library , we import it using a name variable.

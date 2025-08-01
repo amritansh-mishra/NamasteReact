@@ -1,6 +1,7 @@
 import { restrolist } from "../config";
 import Restrauntcard from "./Restrauntcard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Shimmer from "./Schimmer";
 
 //props = properties
 
