@@ -68,5 +68,9 @@ Practicing React with Akashay Saini
 
 ## Why do we need useState Variable?
  - to make component dynamic by re-rendering it. It updates the const function with new value and renders the components to show the updated value.
-  
+
  - To understand Look the login logout function, how the Const value is changing focus on that.
+
+## 2 Types of routing in webpages
+- Client-Side Routing 
+- Server-Side Routing
