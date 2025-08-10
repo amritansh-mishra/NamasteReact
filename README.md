@@ -74,3 +74,5 @@ Practicing React with Akashay Saini
 ## 2 Types of routing in webpages
 - Client-Side Routing 
 - Server-Side Routing
+
+# Read about Class Based Component From Episode 8-Let's get classy 
