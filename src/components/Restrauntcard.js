@@ -1,4 +1,4 @@
-import { IMG_CDN } from "../config";
+import { IMG_CDN } from "../utils/config";
 
 const Restrauntcard = ({name, cuisines, avgRating, cloudinaryImageId,costForTwo,totalRatingsString}) => {  
   

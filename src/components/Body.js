@@ -1,4 +1,4 @@
-import { restrolist } from "../config";
+import { restrolist } from "../utils/config";
 import Restrauntcard from "./Restrauntcard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Schimmer";
@@ -20,7 +20,7 @@ const Body =() =>{
 
         //value is the current value of the input field
         //onChange is an event handler that is called when the value of the input field changes
-        
+
         onChange={(e) => {
           setSearchTxt(e.target.value);
         }}
